@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hrm.employee.Level_19_Fake_Data">
+        <methods>
+          <include name="Employee_08_Edit_View_Salary"/>
+          <include name="Employee_11_Search_Employee"/>
+          <include name="Employee_10_Qualifications"/>
+          <include name="beforeClass"/>
+          <include name="Employee_01_Add_New_Employee"/>
+          <include name="Employee_04_Contact_Details"/>
+          <include name="Employee_07_Edit_View_Job"/>
+          <include name="deleteFileInReport"/>
+          <include name="afterClass"/>
+          <include name="Employee_03_Personal_Details"/>
+          <include name="Employee_09_Edit_View_Tax"/>
+          <include name="Employee_02_Upload_Avatar"/>
+          <include name="Employee_06_Assigned_Dependents"/>
+          <include name="Employee_05_Emergency_Details"/>
+        </methods>
+      </class> <!-- com.hrm.employee.Level_19_Fake_Data -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce">
+<parameter name = "url" value = "https://demo.nopcommerce.com/" />
+<listeners>
+<!-- 		<listener class-name="org.uncommons.reportng.HTMLReporter" /> -->
+<!-- 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+<!--  		<listener class-name="commons.MethodListener" /> -->
+ 		<listener class-name="reportConfig.ReportNGListener" />
+<!--  		<listener class-name="reportConfig.ExtentTestListener" /> -->
+		
+</listeners>
+
+  <test name="Run on Chrome">
+  <parameter name = "browser" value="chrome"/>
+    <classes>
+<!--       <class name="com.nopcommerce.common.Common_01_Login"/> -->
+      <class name="com.nopcommerce.login.Level_15_Register_Login_Pattern_Object"/>
+    </classes>
+  </test>
+</suite> 

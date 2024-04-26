@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All">
+	<suite-files>
+		<suite-file path="runjQueryTCs.xml"/>
+		<suite-file path="runNopCommerceTCs.xml"/>
+	</suite-files>
+  
+</suite> 
